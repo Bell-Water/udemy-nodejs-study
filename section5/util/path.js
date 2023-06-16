@@ -1,3 +1,4 @@
 const path = require("path");
 
-module.exports = path.dirname();
+// 파일의 경로를 알려줌
+module.exports = path.dirname(require.main.filename);
